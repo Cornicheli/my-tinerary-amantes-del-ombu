@@ -6,7 +6,7 @@ import {ButtonNav1} from './ButtonNav1'
 function Header() {
         return(
         <>
-        <header className="body">
+        <header className="main">
                 <div className="buton-nav">
                     <h2 className="title">Pages</h2>
                     <ButtonNav1 name3="Hotels" name4="Home" name5="Cities"/>
