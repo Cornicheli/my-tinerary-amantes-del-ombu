@@ -1,4 +1,4 @@
-// git import Slider from "../componentes/Slider/Slider";
+import Slider from "../componentes/Slider/Slider";
 
 function EventsCarousel() {
  let cities = [
