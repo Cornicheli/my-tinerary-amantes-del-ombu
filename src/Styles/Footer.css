@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    min-height: 30vh;
+    margin: 2rem;
+    border-top: solid 3px white;
+    font-size: 20px;
+}
+.contenedorBoton{
+color: white;
+    height: 4rem;
+    border-color:white;
+    display: flex;
+    flex-direction:column;
+    margin-top: 6%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10%;
+    
+}
+.boton{
+   font-style: italic; 
+   border: none;
+   border-radius: 10%;
+   background: rgba(61, 82, 176, 0.625);
+   text-decoration: none;
+   font-size: 1.5rem;
+   color: white;
+   flex-direction:row;
+   justify-content: start;
+   justify-content: space-around;
+}
+h3{
+    font-size: 1.4rem;
+    text-decoration-line: underline;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 3%;
+}
+.phone{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+p{
+    text-decoration: none;
+    margin: .5rem;
+}
+.up{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 7%;
+}
+h4{
+    margin-top: 20px;
+    font-size: 2rem;
+    
+}
+@media screen and (max-width: 768px){
+    
+    footer{
+        flex-direction: column;
+        
+    }
+}
+@media screen and (max-width: 668px){
+    
+    footer{
+        flex-direction: column;
+        margin-top: 40%;
+    }
+}
+@media screen and (max-width: 468px){
+    
+    footer{
+        flex-direction: column;
+        margin-top: 80%;
+    }
+}

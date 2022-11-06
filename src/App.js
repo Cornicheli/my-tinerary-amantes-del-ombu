@@ -1,11 +1,13 @@
-import React from 'react'
-import Home1 from './componentes/Home1'
-import  MainComplete  from './componentes/layouts/mainComplete/MainComplete'
+import React from 'react';
+import Home from './pages/Home'
 
-export default function App() {
+function App() {
+
   return (
-    <MainComplete>
-      <Home1/>
-    </MainComplete>
-  )
+  <>
+  <Home/>
+  </>
+  );
 }
+
+export default App;
