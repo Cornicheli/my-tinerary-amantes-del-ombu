@@ -1,4 +1,10 @@
-footer{
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.footer{
     display: flex;
     text-align: center;
     justify-content: space-between;
@@ -7,7 +13,6 @@ footer{
     border-top: solid 3px white;
     font-size: 20px;
 }
-
 .contenedorBoton{
 color: white;
     height: 4rem;
@@ -20,7 +25,6 @@ color: white;
     text-align: center;
     gap: 10%;
     
-
 }
 .boton{
    font-style: italic; 
@@ -33,7 +37,6 @@ color: white;
    flex-direction:row;
    justify-content: start;
    justify-content: space-around;
-
 }
 h3{
     font-size: 1.4rem;
@@ -66,7 +69,6 @@ p{
     align-items: center;
     width: 7%;
 }
-
 h4{
     margin-top: 20px;
     font-size: 2rem;

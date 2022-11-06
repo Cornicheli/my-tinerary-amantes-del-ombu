@@ -1,19 +1,17 @@
-
-import './App.css';
+import "./componentes/Error404" 
 import React from 'react';
-import Slider from './componentes/Slider/Slider';
-import EventsCarousel from './data/dataCities.js';
-import {Footer} from './componentes/Footer';
-import {FooterToTop} from './componentes/Arrow';
+import Error404 from "./componentes/Error404";
 
 function App() {
 
   return (
-       <>
-    <EventsCarousel/>
-    {<Footer/>}
-    {<FooterToTop/>}
-    </>
+
+   <>
+    {<Error404/>}
+   </>
+    // {<EventsCarousel/>}
+    // {<Footer/>}
+    // {<FooterToTop/>}
   );
 }
 export default App;
