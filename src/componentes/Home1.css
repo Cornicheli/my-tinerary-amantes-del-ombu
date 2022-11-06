@@ -1,0 +1,16 @@
+.body{
+    display: flex;
+    height: 100vh;
+}
+.box-image{
+    width: 40rem;
+    height: 35rem;
+    border: solid 2px black;
+}
+.logo-box{
+    width: 100%;
+    height: 100%;
+}
+.botom{
+    margin: 2rem;
+}
