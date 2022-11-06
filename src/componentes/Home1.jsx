@@ -8,8 +8,8 @@ return (
     <>
         {<Header/>}
         <main className="body">
-            <div className='box-image'>
-                <img className='logo-box' src="https://img.freepik.com/vector-premium/fondo-paisaje-atardecer-playa_23-2148169235.jpg" alt="" />
+            <div>
+                <h1>Turisfront</h1>
             </div>
             <div className='box-botom'>
                 <button className='botom'>Cities</button>

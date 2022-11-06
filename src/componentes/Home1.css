@@ -1,5 +1,8 @@
 .body{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://www.tuexperto.com/wp-content/uploads/2022/02/17-fondos-de-pantalla-para-pc-de-playas-1-1200x675.jpg);
     height: 100vh;
 }
 .box-image{
@@ -12,5 +15,23 @@
     height: 100%;
 }
 .botom{
-    margin: 2rem;
+    height: 5rem;
+    width: 15rem;
+    margin: 4rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    color: rgb(180, 137, 82);
+    background-color: black;
+    border: solid 2px white;
+}
+.botom:hover{
+    height: 5rem;
+    width: 16rem;
+    font-size: 2.3rem;
+    font-weight: 700;
+    border-radius:15px 0px 15px 0px;
+    box-shadow: 4px 5px black;
+    color: black;
+    background-color: rgb(180, 137, 82);
+
 }
