@@ -1,8 +1,21 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 3.5rem;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.648);
+}
 .body{
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    background-image: url(https://www.tuexperto.com/wp-content/uploads/2022/02/17-fondos-de-pantalla-para-pc-de-playas-1-1200x675.jpg);
+    background-image: url('https://www.xtrafondos.com/wallpapers/hermoso-atardecer-en-la-playa-8459.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
 }
 .box-image{
@@ -26,7 +39,7 @@
 }
 .botom:hover{
     height: 5rem;
-    width: 16rem;
+    width: 15rem;
     font-size: 2.3rem;
     font-weight: 700;
     border-radius:15px 0px 15px 0px;
