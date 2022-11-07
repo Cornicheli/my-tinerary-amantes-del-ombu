@@ -1,4 +1,5 @@
 import React from 'react'
+import ChecBoxCities from './ChecBoxCities.jsx'
 import CitiesCard from './CityCard.jsx'
 
 export default function CardCities() {
@@ -6,8 +7,7 @@ export default function CardCities() {
     <>
         <div className='filters'>
 
-            <label className='inputs'>Filtro 1</label>
-            <input className='selec' type="checkbox"/>
+        <ChecBoxCities/>
 
             <label className='inputs'>Serch Here</label>
         <input className='search' type="text"/>

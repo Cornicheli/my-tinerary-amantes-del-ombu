@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './SignUp.css'
 import { useNavigate } from 'react-router-dom';
-import { Header } from './Header';
 
 // funcionando correcto
 
@@ -32,7 +31,6 @@ const submit = () => {
 
 return (
 <>
-    {<Header/>}
     <div className='content'>
             <div className='content-form'>
                 <h2>Sign Up</h2>
