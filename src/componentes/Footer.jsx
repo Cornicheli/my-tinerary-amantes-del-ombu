@@ -1,17 +1,20 @@
 import React from "react";
-import "./Footer.css";
-import "./Arrow";
+import '../Styles/Footer.css'
+import "./ScrollToTop";
 import "./Arrow.css";
-import { FooterToTop } from "./Arrow";
-function Footer() {
-    return (
+import { FooterToTop } from "./ScrollToTop";
+
+
+
+export default function Footer() {
+  return (
         <footer> 
             <div className="contenedorBoton">
                 <button className="boton">
-                    <a href="#">Cities</a>{" "}
+                    <a href="-">Cities</a>{" "}
                 </button>
                 <button className="boton">
-                    <a href="#">Hotels</a>
+                    <a href="-">Hotels</a>
                 </button>
             </div>
             <div className="date">
@@ -38,4 +41,3 @@ function Footer() {
         </footer>
     );
 }
-export { Footer };

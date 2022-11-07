@@ -4,7 +4,6 @@ import { cities } from '../date/dataCities'
 
 export default function ChecBoxCities() {
     const checkBox = Array.from( new Set (cities.map( (e) => e.continent ) ) )
-    
     return(
         checkBox.map( (e) => {
             return(
