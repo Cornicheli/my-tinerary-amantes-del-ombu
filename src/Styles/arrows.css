@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Right-arrow{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(87, 70, 187, 0.644);
+    width: 50%;
+    height: 2rem;
+    border-radius: 2em;
+    cursor: pointer;
+    font: 2rem;
+}

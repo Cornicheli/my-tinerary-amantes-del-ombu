@@ -1,8 +1,8 @@
 import React from "react";
 import '../Styles/Footer.css'
-import "./Arrow";
+import "./ScrollToTop";
 import "./Arrow.css";
-import { FooterToTop } from "./Arrow";
+import { FooterToTop } from "./ScrollToTop";
 
 
 
