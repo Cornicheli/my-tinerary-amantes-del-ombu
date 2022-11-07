@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.padre{
+    display: flex;
+    background-image: url(https://s1.best-wallpaper.net/wallpaper/m/1608/Passenger-plane-take-off-airport-road-clouds-sun_m.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+justify-content: center;
+align-content: space-between;
+font-size: 3rem;
+
+}
+p{
+    display: flex;
+justify-content: center;
+}
+.mainbox {
+    display: flex;
+    background-color: #1085a91b;
+    margin: auto;
+    height: 600px;
+     width: 40%; 
+    position: relative;
+    border-radius: 2em;
+    box-shadow: rgba(14, 4, 45, 0.72) 0px 5px 15px;
+  }
+
+    .err {
+      color: #ffffff;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 11rem;
+      position:absolute;
+      left: 13%;
+      top: 8%;
+      text-shadow: 1px 4px 2px rgba(24,129,195,0.64);
+    }
+
+  .far {
+    font-family: 'Nunito Sans', sans-serif;
+    position: absolute;
+    font-size: 11rem;
+    left: 43%;
+    top: 8%;
+    color: #fcfcfc;
+    text-shadow: 1px 4px 2px rgba(24,129,195,0.64);
+  }
+
+   .err2 {
+      color: #ffffff;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 11rem;
+      position:absolute;
+      left: 73%;
+      top: 8%;
+      text-shadow: 1px 4px 2px rgba(24,129,195,0.64);
+    }
+
+  .msg {
+    color: #ffffff;
+      text-align: center;
+      font-size: 1.9rem;
+      font-family: 'Nunito Sans', sans-serif;
+      position:absolute;
+      left: 2%;
+      top: 45%;
+      width: 95%;
+    padding: 2px;
+    text-shadow: 1px 4px 2px rgba(24,129,195,0.64);
+}
+.msg1 {
+    display: flex;
+    color: #ffffff;
+      text-align: center;
+      font-size: 1.9rem;
+      font-family: 'Nunito Sans', sans-serif;
+      position:absolute;
+      left: 2%;
+      top: 77%;
+      width: 95%;
+    padding: 2px;
+    text-shadow: 1px 4px 2px rgba(11, 126, 197, 0.64);
+}
+
+  a {
+      transition: background-color .5s;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 5px solid #ffffff6f;
+ width: 100%;
+    border-radius: 1em;
+  }
+
+  a:hover {
+    background-color: rgba(255, 254, 253, 0.467);
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+  }
