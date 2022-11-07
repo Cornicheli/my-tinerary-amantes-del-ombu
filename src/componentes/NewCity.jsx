@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './NewCity.css'
 import { useNavigate } from 'react-router-dom';
-import { Header } from './Header';
 
 // funcionando correcto
 
@@ -33,7 +32,6 @@ const submit = () => {
 
 return (
 <>
-    {<Header/>}
     <div className='contentCity'>
             <div className='content-form'>
                 <h2>City</h2>
